@@ -2,5 +2,5 @@ codecov
 pytest-django
 pytest-cov
 mixer
-selenium
 django==1.11
+selenium==4.9.1
