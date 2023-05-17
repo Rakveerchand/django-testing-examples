@@ -12,7 +12,7 @@ class MyModelForm(forms.ModelForm):
         data = self.cleaned_data['name']
         if "forty two" in data:
             raise forms.ValidationError("Use a real name!")
-        print("Hii")
+        print("Hii Rakveer")
         return data
 
     def clean(self):
